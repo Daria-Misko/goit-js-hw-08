@@ -2,8 +2,8 @@
 import { galleryItems } from './gallery-items';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
+console.log('111');
 // Change code below this line
-console.log(galleryItems);
 const gallery = document.querySelector('.gallery');
 
 const imgElemenst = galleryItems.map(image => `
